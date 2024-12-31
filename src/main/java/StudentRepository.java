@@ -1,5 +1,6 @@
 import java.util.List;
 
+
 interface StudentRepository {
     // 모든 학생정보 조회
     List<Student> findAll();
