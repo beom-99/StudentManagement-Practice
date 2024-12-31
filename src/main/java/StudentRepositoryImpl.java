@@ -39,7 +39,7 @@ public class StudentRepositoryImpl implements StudentRepository {
     	        if (students.get(i).getId() == id) {
     	            // 기존 학생을 새로운 정보로 업데이트
     	            students.set(i, new Student(id, updatedStudent.getName(), updatedStudent.getMajor()));
-    	            System.out.println("ID :" + id + " 학생 정보가 업데이트되었습니다.");
+    	            System.out.println("ID :" + id + " 학생 정보가 업데이트되었습니다.");	
     	            return;
     	        }
     	    }
